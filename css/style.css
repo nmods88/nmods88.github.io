@@ -891,7 +891,7 @@ body.open .hamburger .bar:last-child {
 .prt-image:hover .prt-icon {
     opacity: 1;
     transform: translateY(0px);
-    transition: var(--i); /* * передача переменной из HTML атрибута style */
+    transition: 0.3s var(--i); /* * передача переменной из HTML атрибута style */
 }
 
 .modal {
@@ -922,7 +922,7 @@ body.open .hamburger .bar:last-child {
     left: 50%;
     transform: translate(-50%, calc(-50% + 400px));
     width: 90%;
-    min-width: 900px;
+    max-width: 900px;
     display: grid;
     grid-template-columns: 100px 1fr 100px;
     align-items: center;
