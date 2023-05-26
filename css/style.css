@@ -938,7 +938,10 @@ body.open .hamburger .bar:last-child {
 }
 
 .navigation {
-    background-color: #fff;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 2rem;
 }
 
 .slider-wrap img.showImage {
@@ -1689,7 +1692,7 @@ footer .social-media {
         z-index: 1;
         color:#333;
     }
-    .prev-btn {
+    .next-btn {
         grid-column: 3/4;
         grid-row: 1/2;
         z-index: 1;
